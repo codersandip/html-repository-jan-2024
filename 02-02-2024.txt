@@ -1,0 +1,24 @@
+
+selector       declaration
+ p          { text-size: 15px }
+
+                property   value
+
+
+
+selectors type 5
+
+1. simple selector ( tag name, clas name, id name)
+2. combine selector div p { }
+3. psuedo class selector .class-name::first-child, 
+4. psuedo element selector p::first-line
+5. attribute selector  <a href=""></a>   a[href=""]{  }
+
+
+
+
+
+how tob use css in our web page
+1. Inline CSS  <p style="color: red;"></p>
+2. Internal css <style> p { color: red; }  </style>
+3. External Css    p { color: red; }
