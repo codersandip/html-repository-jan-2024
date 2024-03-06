@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Modal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-secondary navbar-expand-lg">
+      <div class="container">
+        <a href="#" class="navbar-brand">Bootstrap</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto me-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Our Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">First</a></li>
+                    <li><a class="dropdown-item" href="#">Second</a></li>
+                    <li><a class="dropdown-item" href="#">Third</a></li>
+                    <li><a class="dropdown-item" href="#">Forth</a></li>
+                </ul>
+
+              </li>
+            </ul>
+            <form action="" class="d-flex" method="get">
+              <input type="text" class="form-control" placeholder="Search"/>
+              <button type="submit" class="btn btn-outline-success">Search</button>
+            </form>
+        </div>
+      </div>
+    </nav>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
