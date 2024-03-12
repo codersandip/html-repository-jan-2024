@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center">Sign Up</h1>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <form action="" method="post" class="d-none">
+            <div class="mb-3 form-floating">
+              <input
+                type="text"
+                id="first_name"
+                class="form-control"
+                placeholder="First Name"
+              />
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Email"
+              />
+              <label for="email">Email</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <textarea
+                id="address"
+                class="form-control"
+                placeholder="Address"
+              ></textarea>
+              <label for="address">Address</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <select name="" id="sim_provider" class="form-select">
+                <option value="">Airtel</option>
+                <option value="">Jio</option>
+                <option value="">VI</option>
+                <option value="">BSNL</option>
+              </select>
+              <label for="sim_provider">Service Provider</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <textarea
+                id="address1"
+                class="form-control"
+                placeholder="Address"
+                disabled
+              ></textarea>
+              <label for="address1">Address</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <textarea
+                id="address1"
+                class="form-control"
+                placeholder="Address"
+                disabled
+              >
+Ambegaon Pune Maharastra 400001</textarea
+              >
+              <label for="address1">Address</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <select name="" id="sim_provider1" class="form-select" disabled>
+                <option value="">Airtel</option>
+                <option value="">Jio</option>
+                <option value="">VI</option>
+                <option value="">BSNL</option>
+              </select>
+              <label for="sim_provider1">Service Provider</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <input
+                type="text"
+                id="first_name1"
+                readonly
+                class="form-control-plaintext"
+                placeholder="First Name"
+                value="Sandip B. Tawhare"
+              />
+              <label for="first_name1">First Name</label>
+            </div>
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <div class="form-floating">
+                <input
+                  type="text"
+                  id="username"
+                  class="form-control"
+                  placeholder="username "
+                />
+                <label for="username">Username</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      <div>
+
+        <form action="">
+        <!-- 6-6 -->    <!-- First Name     last Name
+        12    email
+        12    phone no
+        6-6    password    confrim pass
+        6-6    Submit   reset -->
+<!-- 12 columns in single row -->
+         <div class="row">
+            <div class="col-md-6 offset-md-6">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="">First Name</label>
+                    <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <label for="">Mobile No.</label>
+                    <input type="text" class="form-control" placeholder="Mobile No.">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="">Password</label>
+                    <input type="text" class="form-control" placeholder="Password">
+                </div>
+                <div class="col-md-6">
+                    <label for="">Confirm Password</label>
+                    <input type="text" class="form-control" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <button class="btn btn-primary w-100" type="submit">Submit</button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-danger w-100" type="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        </form>
+
+
+
+      </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
